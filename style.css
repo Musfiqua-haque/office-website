@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Tiro Devanagari Marathi', serif;
+
+}
+
+.banner{
+  background-color: #ECC5C0;
+}
+
+.cardSection {
+    margin-top: 200px;
+}
+
+.cardImage {
+width: 350px;
+height: 200px;
+padding: 0 20px;
+margin-top: -100px;
+border: 1px solid white;
+border-radius: 8%;
+}
+.card{
+    border: 0px;
+    background-color: initial;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.service-button {
+  background-color: black;
+  transition: width 2s;
+}
+.service-button:hover {
+  background-color: blue;
+
+
+}
+
+.about-button {
+  background-color: black;
+}
+.service-button:hover {
+  background-color: blue;
+  transition: width 2s;
+
+}
+
+.mission-button {
+
+  margin-left: 50px;
+}
+.mission {
+
+  margin-left: 50px;
+}
+
+.mission-section {
+background-color: #eaf7ff;
+}
+
+.solution-section {
+  margin: 0px 40px;
+}
+
+#engagement{
+  background-color: #eaf7ff;
+  margin-top: 20px;
+
+}
+
+/* .person-img{
+
+  height: 200px;
+  
+} */
+.img-container {
+ text-align: center;
+ margin-top: -30px;
+}
+#person-img{
+  border-radius: 50%;
+}
+.whyChooseUsRow{
+  margin-top: 150px;
+}
+
+.reviwe-header{
+  border-bottom:  solid blue;
+  border-width: 5px;
+
+}
+.prev-btn{
+  border: none;
+  background-color: white;
+  margin-left: 10px;
+}
+.next-btn{
+  border: none;
+  background-color: white;
+}
+
+
+
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  /* .mission-section {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+ */
+
+
+
+
+
+
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .news-input {
+        width:50%;
+    }
+    
+}
